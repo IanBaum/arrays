@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/word-play-scripts.js"></script>
+    <title>Word Play</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-10 col-sm-push-1">
+          <h1>Fun with sentences.</h1>
+          <form id="sentenceEntry">
+            <div class="form-group">
+              <label for="sentence">Please enter a sentence:</label>
+              <input type="text" class="form-control" id="sentence">
+            </div>
+            <button type="submit" class="btn btn-success">Submit your sentence.</button>
+          </form>
+          <h2>Your result:</h2>
+          <h4 id="endSentence">
+          </h4>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

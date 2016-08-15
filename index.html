@@ -7,9 +7,26 @@
     <script src="js/jquery-3.1.0.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/scripts.js"></script>
-    <title></title>
+    <title>Array Practice</title>
   </head>
   <body>
-
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-10 col-sm-push-1">
+          <h1>Grocery List</h1>
+          <div id="groceryForm">
+            <form id="groceryList">
+              <div class="form-group">
+                <label for="itemEntry">Enter items one at a time here:</label>
+                <input type="text" class="form-control" id="itemEntry">
+              </div>
+            </form>
+            <button id="doneButton" class="btn btn-primary">Done</button>
+          </div>
+          <h2>Your Items:</h2>
+          <ul id="itemList"></ul>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
